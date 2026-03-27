@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #0d6efd !important;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  font-weight: 600;
+}
+
+.table th {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.welcome-section {
+  padding: 3rem 1rem;
+}
+
+.welcome-section h1 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.welcome-section p.lead {
+  color: #6c757d;
+}
